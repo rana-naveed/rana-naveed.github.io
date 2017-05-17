@@ -1,0 +1,34 @@
+a{
+background-color: Grey;
+margin-left:20px;
+padding:10px 50px;
+color:white;
+font-size:20px;
+}
+div{
+height:100vh;
+margin-top:50px;
+}
+#first{
+background:#F8F8FF;
+}
+#second{
+background:#DCDCDC;
+}
+#third{
+background:#E6E6FA;
+}
+#fourth{
+background:#D3D3D3;
+}
+#fifth{
+background:black;
+}
+#six{
+background:blue;
+}
+#top{
+position:fixed;
+right:0;
+bottom:0;
+}
