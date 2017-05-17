@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multi step Registration Form- Demo Preview</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="java.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="content">
+<div class="main">
+	<form action="#" class="regform" method="get">
+		<fieldset id="first">
+			<h2 >Create your account</h2>
+			Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input  name="name" placeholder="Name" type="text" required /><br><br>
+			Last Name:&nbsp;&nbsp;&nbsp;&nbsp;
+			<input  name="lname" placeholder="Last Name" type="lname" required /><br><br>
+			Contact:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input  name="cont" placeholder="Contact" type="text" required /><br><br>
+			
+			<input id="next_btn2" name="next" onclick="next_step1()" type="button" value="Next Step">
+		</fieldset>
+		<fieldset id="second">
+			<h2 >Education Form</h2>
+			Select Education:&nbsp;&nbsp;
+			<select class="options">
+			<option>Education</option>
+			<option>Metric</option>
+			<option>intermediate</option>
+			<option>Bachelor</option>
+			<option>Master</option>
+			</select><br><br>
+			Marks Obtained:&nbsp;&nbsp;
+			<input  name="marks" placeholder="Marks Obtained" type="text" value="" required /><br><br>
+			Passing Year:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input  name="pyear" placeholder="Passing Year" type="text" value="" required /><br><br>
+			Board:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input  name="board" placeholder="Board" type="board" required /><br><br>
+			<input id="next_btn2" name="next" onclick="next_step2()" type="button" value="Next Step">
+		</fieldset>
+		<fieldset id="third">
+			<h2 >Registration</h2>
+			Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input  name="email" placeholder="Email" type="email"  required /><br><br>
+			Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input  name="password" placeholder="Password" type="password"  required /><br><br>
+			Re-Enter Password:&nbsp;&nbsp;
+			<input  name="re-password" placeholder="Re-Enter Password" type="re-password"  required /><br><br>
+
+			<label>Gender</label><br><br>
+			<input name="gender" type="radio" value="Male" required />Male
+			<input name="gender" type="radio" value="Female" required />Female <br><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+</form>
+</div>
+</div>
+</body>
+</html>
