@@ -1,0 +1,78 @@
+/* CSS Document */
+
+*{
+margin:0 px;
+padding:0 px;
+}
+body{
+background-image:url(images/img.png);
+}
+#container{
+background:white;
+width:960px;
+height:650px;
+margin:0 auto;
+margin-top:20px;
+}
+#header{
+background:#B22222;
+width:960px;
+height:100px;
+border:1px solid;
+}
+#navigation{
+background:#696969;
+width:960px;
+height:100px;
+border:1px solid;
+}
+#navigation ul{}
+	#navigation ul li{
+	list-style:none;
+	float:left;
+	padding:25px  50px;
+	margin-right:10px;
+	color:white;
+	background:#808080;
+	border:1px solid;
+	}
+#main{
+background:#2F4F4F;
+width:960px;
+height:500px;
+}
+#content_area{
+width: 600px;
+height:500px;
+float:left;
+background:-moz-linear-gradient(top,#F5F5DC,#A9A9A9);
+}
+
+input.MyButton {
+width: 200px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 15px;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+}
+#sidebar{
+width: 360px;
+height:500px;
+float:left;
+background:-moz-linear-gradient(top,#F5F5DC,#A9A9A9);
+}
+#footer{
+height:70px;
+width:950px;
+border:3px solid #A52A2A;
+float:left;
+margin-top:20px;
+  border-top-left-radius:15px;
+ border-top-right-radius:15px;
+ border-bottom-left-radius:15px;
+ border-bottom-right-radius:15px;
+ background:#B8860B;}
+}
